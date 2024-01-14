@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {color: rgb(199, 6, 6);}
+        .center {
+            align-items: center;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(233,207,182);">
+    <center><img class="center" src="https://www.historytoday.com/sites/default/files/articles/Medieval-Plays.jpg" alt="ChristmasMedievalArt" width="500px" ></center>
+    <h1><center>Средневековая Ёлка!</center> </h1>
+    <h3>Космюмированная елка в средневековом стиле.</h3>
+    <p>Безудержное веселье под средневековые ритмы в 800-летнем здании в окружении разряженых гостей. Прославленные трубадуры покажут рождественское представление, господские повара угостят яствами по старинным рецептам, а скоморохи займут ваших детей, чтоб вы могли выпить стаканчик пряного глинтвейна и пуститься в пляс в лучший день года!</p>
+    <h2>Регистрация на мероприятие</h2>
+    <form method="get">
+        <fieldset>
+            <legend>Guest name</legend>
+            <label for="guest-name"autofocus>Ваше имя</label>
+            <input type="text" name="guest-name" id="guest-name" placeholder="Ваше имя" list="names" ><br>
+            <label for="e-mail">E-mail:</label>
+            <input type="email" name="user-email" id="user-email" value="example@examle.com"><br>
+        </fieldset><br>
+        <h4>Выберите доп.опции:</h4>
+        <fieldset>
+            <legend>Costume</legend>
+            <span>1. Нужен костюм в аренду</span>
+            <input type="checkbox" name="needcostume" id="needcostume" value="true" ><br>
+            <select name="costume" id="costume" multiple size="6">
+                <optgroup label="Man">
+                    <option value="m-sml">S</option>
+                    <option value="m-med">M</option>
+                    <option value="m-lrg">L</option>
+                </optgroup>
+                <optgroup label="Woman">
+                    <option value="w-sml">S</option>
+                    <option value="w-med">M</option>
+                    <option value="w-lrg">L</option>
+                </optgroup>
+                <optgroup label="Boy">
+                    <option value="b-sml">98-116</option>
+                    <option value="b-med">122-146</option>
+                    <option value="b-lrg">152-170</option>
+                </optgroup>
+                <optgroup label="Girl">
+                    <option value="g-sml">98-116</option>
+                    <option value="g-med">122-146</option>
+                    <option value="g-lrg">152-170</option>
+                </optgroup>
+            </select><br>
+            <span>Вопросы и пожелания на этот счет:</span><br>
+            <textarea name="message" id="message" cols="60" rows="5">Write message</textarea><br>
+        </fieldset>
+        <span>2. Остаюсь на банкет после Елки</span>
+        <input type="checkbox" name="banket" id="banket" value="true" checked><br><br>
+        <span>3. Сладкий подарок</span>
+        <input type="checkbox" name="present" id="present" value="true" checked><br>
+        <input type="radio" name="present" id="std" value="std">Стандартный <br>
+        <input type="radio" name="present" id="mdv" value="mdv">Средневековый крафтовый<br>
+        <input type="radio" name="present" id="gls" value="gls">Стакан с неиссякающим глинтвейном<br><br>
+        <span>4. Фотографии с праздника</span>
+        <input type="checkbox" name="foto" id="foto" value="true" checked><br><br>
+        <input type="submit" value="Зарегаться!"><br>
+    </form>
+    <center><img class="center" src="https://images.immediate.co.uk/production/volatile/sites/7/2018/01/ANKH21_0-5bf68a2.jpg?quality=90&fit=623,415" alt="ChristmasMedievalChoir" width="500px" ></center>
+
+</body>
+</html>
