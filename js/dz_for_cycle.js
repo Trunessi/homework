@@ -102,15 +102,28 @@ biggestNum(-79, 99, 12);
 
 console.log("------TASK 5:");
 
-function fizzBuzz(x) {
-  if (x > 0 && x < 101) {
-    if (x % 3 === 0) {
-      if (x % 5 === 0) {
-        console.log(x, " FIZZBUZZ");
-      } else console.log(x, " FIZZ");
-    } else if (x % 5 === 0) {
-      console.log(x, " BUZZ");
-    }
-  } else console.log(x, " is incorrect number");
+// function fizzBuzz(x) {
+//   if (x > 0 && x < 101) {
+//     if (x % 3 === 0) {
+//       if (x % 5 === 0) {
+//         console.log(x, " FIZZBUZZ");
+//       } else console.log(x, " FIZZ");
+//     } else if (x % 5 === 0) {
+//       console.log(x, " BUZZ");
+//     }
+//   } else console.log(x, " is incorrect number");
+// }
+// fizzBuzz(120);
+
+function fizzBuzz() {
+  for (let i = 1; i < 101; i++) {
+    if (i % 3 === 0) {
+      if (i % 5 === 0) {
+        console.log(i, " FIZZBUZZ");
+      } else console.log(i, " FIZZ");
+    } else if (i % 5 === 0) {
+      console.log(i, " BUZZ");
+    } else console.log(i);
+  }
 }
-fizzBuzz(120);
+fizzBuzz();
