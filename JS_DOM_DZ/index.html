@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html, body {
+            margin: 20px;
+        }
+        .body_background {
+            /* background-color: white; */
+        }
+        .heading1 {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(189, 189, 189);
+        }
+        .container {
+            max-width: 400px;
+            height: 75px;
+            margin: auto;
+            margin-top: 50px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(189, 189, 189);
+            border: 3px solid white;
+            border-radius: 15px;
+        }
+        .color_ch {
+            display: flex;
+            justify-content: center;
+        }
+       
+        
+    </style>
+</head>
+<body class="body_background">
+    <h1 class="heading1">Change background color</h1>
+    <div class="container">
+        <p>Choose new color:</p>
+        <div class="color_ch">
+            <input type="color" name="color" id="color">
+            <!-- <input type="text"> -->
+            <!-- <button type="button" onclick="changeBodyBg('color');">Change</button> -->
+            <button class="btn btn-1">Change!</button> 
+        </div> 
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
